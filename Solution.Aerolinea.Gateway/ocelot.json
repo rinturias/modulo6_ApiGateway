@@ -10,8 +10,7 @@
         }
     ],
     "Routes": [
-
-        {
+      {
             "UpstreamPathTemplate": "/Vuelos/ListarFlightByIdflight?id={id}",
             "UpstreamHttpMethod": [ "GET" ],
             "DownstreamPathTemplate": "/api/Vuelo/ListarFlightByIdflight?id={id}",
@@ -50,19 +49,57 @@
             ],
             "Key": "AeronavesCreateVuelos"
         },
-        {
-            "UpstreamPathTemplate": "/Delivery/categories",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/categories/getAll",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "192.168.100.212",
-                    "Port": 4000
-                }
-            ],
-            "Key": "categories"
-        }
-
+      {
+        "UpstreamPathTemplate": "/Delivery/categories",
+        "UpstreamHttpMethod": [ "GET" ],
+        "DownstreamPathTemplate": "/api/categories/getAll",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "192.168.100.212",
+            "Port": 4000
+          }
+        ],
+        "Key": "categories"
+      },
+      {
+        "UpstreamPathTemplate": "/Aeronaves",
+        "UpstreamHttpMethod": [ "POST" ],
+        "DownstreamPathTemplate": "/api/Aeronave",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "161.35.9.150",
+            "Port": 5001
+          }
+        ],
+        "Key": "CreateAeronave"
+      },
+      {
+        "UpstreamPathTemplate": "/Aeronaves",
+        "UpstreamHttpMethod": [ "GET" ],
+        "DownstreamPathTemplate": "/api/Aeronave",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "161.35.9.150",
+            "Port": 5001
+          }
+        ],
+        "Key": "ListAeronaves"
+      },
+      {
+        "UpstreamPathTemplate": "/Aeronave/vuelos",
+        "UpstreamHttpMethod": [ "GET" ],
+        "DownstreamPathTemplate": "/api/Vuelo",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "161.35.9.150",
+            "Port": 5001
+          }
+        ],
+        "Key": "ListVuelos"
+      }
     ]
 }
