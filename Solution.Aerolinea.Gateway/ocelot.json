@@ -1,6 +1,6 @@
 {
     "GlobalConfiguration": {
-        "BaseUrl": "http://localhost:5065"
+        "BaseUrl": "http://localhost:5000"
     },
     "Aggregates": [
         {
