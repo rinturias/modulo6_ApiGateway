@@ -9,150 +9,162 @@
             "Aggregator": "DetalleAsientoPorVueloAggregator"
         }
     ],
-    "Routes": [
-      {
-            "UpstreamPathTemplate": "/Vuelos/ListarFlightByIdflight?id={id}",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/Vuelo/ListarFlightByIdflight?id={id}",
-            "DownstreamScheme": "https",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 44324
-                }
-            ],
-            "Key": "ListarFlightByIdflight"
-        },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/Vuelos/ListarFlightByIdflight?id={id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Vuelo/ListarFlightByIdflight?id={id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
         {
-            "UpstreamPathTemplate": "/api/AsientosearchById?id={id}",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/Asiento/searchById?idvuelo={id}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 18039
-                }
-            ],
-            "Key": "planillaAsientoVenta"
-        },
-        {
-            "UpstreamPathTemplate": "/Aeronave/createVuelos",
-            "UpstreamHttpMethod": [ "POST" ],
-            "DownstreamPathTemplate": "/api/Aeronave",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "161.35.9.150",
-                    "Port": 5001
-                }
-            ],
-            "Key": "AeronavesCreateVuelos"
-        },
-      {
-        "UpstreamPathTemplate": "/Delivery/categories",
-        "UpstreamHttpMethod": [ "GET" ],
-        "DownstreamPathTemplate": "/api/categories/getAll",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "192.168.100.212",
-            "Port": 4000
-          }
-        ],
-        "Key": "categories"
-      },
-      {
-        "UpstreamPathTemplate": "/Aeronaves",
-        "UpstreamHttpMethod": [ "POST" ],
-        "DownstreamPathTemplate": "/api/Aeronave",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "161.35.9.150",
-            "Port": 5001
-          }
-        ],
-        "Key": "CreateAeronave"
-      },
-      {
-        "UpstreamPathTemplate": "/Aeronaves",
-        "UpstreamHttpMethod": [ "GET" ],
-        "DownstreamPathTemplate": "/api/Aeronave",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "161.35.9.150",
-            "Port": 5001
-          }
-        ],
-        "Key": "ListAeronaves"
-      },
-        {
-            "UpstreamPathTemplate": "/Aeronave/vuelos",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/Vuelo",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "161.35.9.150",
-                    "Port": 5001
-                }
-            ],
-            "Key": "ListVuelos"
-        },
-        {
-            "UpstreamPathTemplate": "/Reserva/registro",
-            "UpstreamHttpMethod": [ "POST" ],
-            "DownstreamPathTemplate": "/api/Reservas",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
-                }
-            ],
-            "Key": "CrearReserva"
-        },
-        {
-            "UpstreamPathTemplate": "/Reserva/pago",
-            "UpstreamHttpMethod": [ "POST" ],
-            "DownstreamPathTemplate": "/api/Pago",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
-                }
-            ],
-            "Key": "CrearPago"
-        },
-        {
-            "UpstreamPathTemplate": "/Reserva/anular",
-            "UpstreamHttpMethod": [ "POST" ],
-            "DownstreamPathTemplate": "/api/ReservaAnulado",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
-                }
-            ],
-            "Key": "RegistrarAnulacion"
-        },
-        {
-            "UpstreamPathTemplate": "/Reserva/buscar?NroReserva={nroReserva}",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/Reservas/search?NroReserva={nroReserva}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
-                }
-            ],
-            "Key": "ListarReserva"
+          "Host": "localhost",
+          "Port": 44324
         }
-
-    ]
+      ],
+      "Key": "ListarFlightByIdflight"
+    },
+    {
+      "UpstreamPathTemplate": "/api/AsientosearchById?id={id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Asiento/searchById?idvuelo={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 18039
+        }
+      ],
+      "Key": "planillaAsientoVenta"
+    },
+    {
+      "UpstreamPathTemplate": "/Aeronave/createVuelos",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Aeronave",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "161.35.9.150",
+          "Port": 5001
+        }
+      ],
+      "Key": "AeronavesCreateVuelos"
+    },
+    {
+      "UpstreamPathTemplate": "/Delivery/categories",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/categories/getAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.100.212",
+          "Port": 4000
+        }
+      ],
+      "Key": "categories"
+    },
+    {
+      "UpstreamPathTemplate": "/Aeronaves",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Aeronave",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "161.35.9.150",
+          "Port": 5001
+        }
+      ],
+      "Key": "CreateAeronave"
+    },
+    {
+      "UpstreamPathTemplate": "/Aeronaves",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Aeronave",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "161.35.9.150",
+          "Port": 5001
+        }
+      ],
+      "Key": "ListAeronaves"
+    },
+    {
+      "UpstreamPathTemplate": "/Aeronave/vuelos",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Vuelo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "161.35.9.150",
+          "Port": 5001
+        }
+      ],
+      "Key": "ListVuelos"
+    },
+    {
+      "UpstreamPathTemplate": "/Reserva/registro",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Reservas",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "20.169.83.87",
+          "Port": 5005
+        }
+      ],
+      "Key": "CrearReserva"
+    },
+    {
+      "UpstreamPathTemplate": "/Reserva/pago",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Pago",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "20.169.83.87",
+          "Port": 5005
+        }
+      ],
+      "Key": "CrearPago"
+    },
+    {
+      "UpstreamPathTemplate": "/Reserva/anular",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/ReservaAnulado",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "20.169.83.87",
+          "Port": 5005
+        }
+      ],
+      "Key": "RegistrarAnulacion"
+    },
+    {
+      "UpstreamPathTemplate": "/Reserva/buscar?NroReserva={nroReserva}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Reservas/search?NroReserva={nroReserva}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "20.169.83.87",
+          "Port": 5005
+        }
+      ],
+      "Key": "ListarReserva"
+    },
+    {
+      "UpstreamPathTemplate": "/Checkin",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/checkIn",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "161.35.100.146",
+          "Port": 3000
+        }
+      ],
+      "Key": "CreateCheckin"
+    }
+  ]
 }
