@@ -88,18 +88,71 @@
         ],
         "Key": "ListAeronaves"
       },
-      {
-        "UpstreamPathTemplate": "/Aeronave/vuelos",
-        "UpstreamHttpMethod": [ "GET" ],
-        "DownstreamPathTemplate": "/api/Vuelo",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "161.35.9.150",
-            "Port": 5001
-          }
-        ],
-        "Key": "ListVuelos"
-      }
+        {
+            "UpstreamPathTemplate": "/Aeronave/vuelos",
+            "UpstreamHttpMethod": [ "GET" ],
+            "DownstreamPathTemplate": "/api/Vuelo",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "161.35.9.150",
+                    "Port": 5001
+                }
+            ],
+            "Key": "ListVuelos"
+        },
+        {
+            "UpstreamPathTemplate": "/Reserva/registro",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/api/Reservas",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "20.169.83.87",
+                    "Port": 5005
+                }
+            ],
+            "Key": "CrearReserva"
+        },
+        {
+            "UpstreamPathTemplate": "/Reserva/pago",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/api/Pago",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "20.169.83.87",
+                    "Port": 5005
+                }
+            ],
+            "Key": "CrearPago"
+        },
+        {
+            "UpstreamPathTemplate": "/Reserva/anular",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/api/ReservaAnulado",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "20.169.83.87",
+                    "Port": 5005
+                }
+            ],
+            "Key": "RegistrarAnulacion"
+        },
+        {
+            "UpstreamPathTemplate": "/Reserva/buscar?NroReserva={nroReserva}",
+            "UpstreamHttpMethod": [ "GET" ],
+            "DownstreamPathTemplate": "/api/Reservas/search?NroReserva={nroReserva}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "20.169.83.87",
+                    "Port": 5005
+                }
+            ],
+            "Key": "ListarReserva"
+        }
+
     ]
 }

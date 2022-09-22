@@ -30,3 +30,35 @@ D:\DIPLOMADO MICROSERVICIOS\DIPLOMADO\MODULO 6\PROYECTO FINAL DIPLOMADO\Solution
 D:\DIPLOMADO MICROSERVICIOS\DIPLOMADO\MODULO 6\PROYECTO FINAL DIPLOMADO\Solution.Aerolinea.Gateway\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.pdb
 D:\DIPLOMADO MICROSERVICIOS\DIPLOMADO\MODULO 6\PROYECTO FINAL DIPLOMADO\Solution.Aerolinea.Gateway\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.genruntimeconfig.cache
 D:\DIPLOMADO MICROSERVICIOS\DIPLOMADO\MODULO 6\PROYECTO FINAL DIPLOMADO\Solution.Aerolinea.Gateway\Solution.Aerolinea.Gateway\obj\Debug\net6.0\ref\Solution.Aerolinea.Gateway.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\appsettings.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\ocelot.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Solution.Aerolinea.Gateway.exe
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Solution.Aerolinea.Gateway.deps.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Solution.Aerolinea.Gateway.runtimeconfig.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Solution.Aerolinea.Gateway.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Solution.Aerolinea.Gateway.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\bin\Debug\net6.0\Ocelot.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.csproj.AssemblyReference.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.AssemblyInfoInputs.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.AssemblyInfo.cs
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\scopedcss\bundle\Solution.Aerolinea.Gateway.styles.css
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.csproj.CopyComplete
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\refint\Solution.Aerolinea.Gateway.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\Solution.Aerolinea.Gateway.genruntimeconfig.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (3)\Solution.Aerolinea.Gateway\obj\Debug\net6.0\ref\Solution.Aerolinea.Gateway.dll

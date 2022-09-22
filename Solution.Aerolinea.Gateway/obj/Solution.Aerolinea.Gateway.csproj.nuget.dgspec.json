@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DIPLOMADO MICROSERVICIOS\\DIPLOMADO\\MODULO 6\\PROYECTO FINAL DIPLOMADO\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj": {}
+    "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (3)\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj": {}
   },
   "projects": {
-    "D:\\DIPLOMADO MICROSERVICIOS\\DIPLOMADO\\MODULO 6\\PROYECTO FINAL DIPLOMADO\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj": {
+    "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (3)\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DIPLOMADO MICROSERVICIOS\\DIPLOMADO\\MODULO 6\\PROYECTO FINAL DIPLOMADO\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj",
+        "projectUniqueName": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (3)\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj",
         "projectName": "Solution.Aerolinea.Gateway",
-        "projectPath": "D:\\DIPLOMADO MICROSERVICIOS\\DIPLOMADO\\MODULO 6\\PROYECTO FINAL DIPLOMADO\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj",
-        "packagesPath": "C:\\Users\\Inturias\\.nuget\\packages\\",
-        "outputPath": "D:\\DIPLOMADO MICROSERVICIOS\\DIPLOMADO\\MODULO 6\\PROYECTO FINAL DIPLOMADO\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway\\obj\\",
+        "projectPath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (3)\\Solution.Aerolinea.Gateway\\Solution.Aerolinea.Gateway.csproj",
+        "packagesPath": "C:\\Users\\RAULF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (3)\\Solution.Aerolinea.Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Inturias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RAULF\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -56,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
