@@ -52,6 +52,20 @@
         },
 
         {
+            "UpstreamPathTemplate": "/Vuelo/Concluido",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/api/Vuelo/ConcludeFlight",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "20.169.83.87",
+                    "Port": 5000
+                }
+            ],
+            "Key": "ConcluirVuelo"
+        },
+
+        {
             "UpstreamPathTemplate": "/Tripulacion/CrearTripulacion",
             "UpstreamHttpMethod": [ "POST" ],
             "DownstreamPathTemplate": "/api/Empleado/CreateTripulantes",
