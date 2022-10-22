@@ -15,11 +15,11 @@
             "UpstreamPathTemplate": "/Vuelos/ListarFlightByIdflight?id={id}",
             "UpstreamHttpMethod": [ "GET" ],
             "DownstreamPathTemplate": "/api/Vuelo/ListarFlightByIdflight?id={id}",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5000
+                    "Host": "microserviciovuelo.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "ListarFlightByIdflight"
@@ -28,11 +28,11 @@
             "UpstreamPathTemplate": "/api/AsientosearchById?id={id}",
             "UpstreamHttpMethod": [ "GET" ],
             "DownstreamPathTemplate": "/api/Asiento/searchById?idvuelo={id}",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
+                    "Host": "service-reserva.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "planillaAsientoVenta"
@@ -41,11 +41,11 @@
             "UpstreamPathTemplate": "/Vuelo/CrearVuelo",
             "UpstreamHttpMethod": [ "POST" ],
             "DownstreamPathTemplate": "/api/Vuelo/CreateVuelo",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5000
+                    "Host": "microserviciovuelo.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "VueloCreado"
@@ -55,11 +55,11 @@
             "UpstreamPathTemplate": "/Vuelo/Concluido",
             "UpstreamHttpMethod": [ "POST" ],
             "DownstreamPathTemplate": "/api/Vuelo/ConcludeFlight",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5000
+                    "Host": "microserviciovuelo.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "ConcluirVuelo"
@@ -149,11 +149,11 @@
             "UpstreamPathTemplate": "/Reserva/registro",
             "UpstreamHttpMethod": [ "POST" ],
             "DownstreamPathTemplate": "/api/Reservas",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
+                    "Host": "service-reserva.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "CrearReserva"
@@ -162,11 +162,11 @@
             "UpstreamPathTemplate": "/Reserva/pago",
             "UpstreamHttpMethod": [ "POST" ],
             "DownstreamPathTemplate": "/api/Pago",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
+                    "Host": "service-reserva.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "CrearPago"
@@ -175,11 +175,11 @@
             "UpstreamPathTemplate": "/Reserva/anular",
             "UpstreamHttpMethod": [ "POST" ],
             "DownstreamPathTemplate": "/api/ReservaAnulado",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
+                    "Host": "service-reserva.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "RegistrarAnulacion"
@@ -188,11 +188,11 @@
             "UpstreamPathTemplate": "/Reserva/buscar?NroReserva={nroReserva}",
             "UpstreamHttpMethod": [ "GET" ],
             "DownstreamPathTemplate": "/api/Reservas/search?NroReserva={nroReserva}",
-            "DownstreamScheme": "http",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "20.169.83.87",
-                    "Port": 5005
+                    "Host": "service-reserva.azurewebsites.net",
+                    "Port": 443
                 }
             ],
             "Key": "ListarReserva"

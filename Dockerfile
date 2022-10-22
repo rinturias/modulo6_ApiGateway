@@ -3,7 +3,7 @@ FROM centos:7 AS base
 RUN rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm \
     && yum install -y aspnetcore-runtime-6.0
 
-ENV ASPNETCORE_URLS=http://*:5009
+ENV ASPNETCORE_URLS=http://*:5065
 ENV ASPNETCORE_ENVIRONMENT=Development
 
 WORKDIR /app
